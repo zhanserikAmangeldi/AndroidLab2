@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     tools:context=".DetailActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    >
 
 
     <TextView
@@ -14,7 +15,8 @@
         android:layout_height="wrap_content"
         android:text="Animalia/Chordata/Mammalia/Carnivora/Felidae/Acinonyx/\nAcinonyx jubatus"
         android:textSize="12sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        />
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
@@ -48,11 +50,12 @@
         android:text="They eat carnivore"
         android:layout_marginBottom="24dp"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:minWidth="120dp"
-        android:text="Back"/>
+        android:text="Back"
+        android:background="@drawable/bg_button"/>
 </LinearLayout>
